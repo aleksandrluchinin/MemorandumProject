@@ -56,7 +56,6 @@ class TableViewCell: UITableViewCell {
         textFild.returnKeyType = .done
         textFild.translatesAutoresizingMaskIntoConstraints = false
         return textFild
-        
     }()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {

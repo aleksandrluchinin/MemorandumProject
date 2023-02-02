@@ -59,9 +59,7 @@ class MemorandumFotoController: UIViewController {
   extension MemorandumFotoController {
       
       private func setConstraint() {
-          
           NSLayoutConstraint.activate([
-            
             newMemors.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,  constant: 20),
             newMemors.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -35),
             

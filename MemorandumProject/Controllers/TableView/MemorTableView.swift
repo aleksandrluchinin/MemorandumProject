@@ -27,7 +27,6 @@ class MainTableView: UIView {
     private var memors = [MemorandumProtocol]()
     private let idTableViewCell = "idTableViewCell"
     
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -52,7 +51,6 @@ class MainTableView: UIView {
         mytableView.dataSource = self
     }
 }
-
 // MARK: - UITableViewDataSource
 
 extension MainTableView: UITableViewDataSource {
@@ -63,7 +61,6 @@ extension MainTableView: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 7
-        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

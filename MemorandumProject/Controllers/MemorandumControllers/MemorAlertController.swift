@@ -14,7 +14,6 @@ extension MemorandumFotoController {
         let alertController = UIAlertController(title: title, message: nil, preferredStyle: .alert)
         
         let alertOk = UIAlertAction(title: "Ок", style: .default) { (action) in
-
         }
         
         alertController.addTextField { (tf) in
@@ -22,14 +21,12 @@ extension MemorandumFotoController {
         }
         
         let alertCansel = UIAlertAction(title: "Отмена", style: .default) { (_) in
-            
         }
         
         alertController.addAction(alertOk)
         alertController.addAction(alertCansel)
         
         present(alertController, animated: true, completion: nil)
-        
     }
     
     func alertError(title: String, message: String) {
